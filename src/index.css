@@ -1,0 +1,37 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", system-ui, -apple-system, "BlinkMacSystemFont";
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* Large heading */
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Medium heading */
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2.5vw, 2.25rem); /* Small heading */
+}
+
+h4 {
+  font-size: clamp(1rem, 2vw, 1.875rem); /* Extra small heading */
+}
+
+h5 {
+  font-size: clamp(0.875rem, 1.5vw, 1.25rem); /* Tiny heading */
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
