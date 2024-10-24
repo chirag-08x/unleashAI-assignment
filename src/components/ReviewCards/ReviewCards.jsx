@@ -1,3 +1,4 @@
+import styled from "@emotion/styled";
 import { reviewListData } from "../../data/data";
 import { Box, Grid2, Paper, Stack, Typography } from "@mui/material";
 
@@ -19,7 +20,13 @@ const ReviewCards = () => {
             >
               <Stack direction="row" alignItems="center" spacing={1.5}>
                 <Box>
-                  <img width="40px" height="40px" src={avatar} alt="" />
+                  <AvatarImg
+                    // width="40px"
+                    // height="40px"
+                    // style={{ objectFit: "cover" }}
+                    src={avatar}
+                    alt=""
+                  />
                 </Box>
                 <Box>
                   <Typography variant="body1">{name}</Typography>
@@ -41,3 +48,13 @@ const ReviewCards = () => {
 };
 
 export default ReviewCards;
+
+const AvatarImg = styled.img`
+  width: 30px;
+  height: 30px;
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+`;
