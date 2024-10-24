@@ -31,7 +31,10 @@ const Sidebar = () => {
           >
             <LuMenu size="34" />
           </Button>
-          <img src={HeaderLogo} alt="" />
+
+          <Link to={"/"}>
+            <img src={HeaderLogo} alt="" />
+          </Link>
         </Stack>
       </section>
 
