@@ -17,7 +17,7 @@ const ProductsList = () => {
               UNLEASH AI
             </Typography>
             <Typography
-              variant="h4"
+              variant="h3"
               fontSize="32px"
               fontWeight={600}
               color="#0f141e"

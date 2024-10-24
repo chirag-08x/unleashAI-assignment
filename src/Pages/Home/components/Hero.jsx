@@ -11,10 +11,10 @@ const Hero = () => {
   return (
     <Wrapper>
       <Box spacing={2.5} textAlign="center" className="section-center">
-        <Typography variant="h3" fontWeight={"700"} color="primary">
+        <Typography variant="h1" fontWeight={"700"} color="primary">
           Automate
         </Typography>
-        <Typography variant="h3" fontWeight={"700"} color="#0f141e">
+        <Typography variant="h1" fontWeight={"700"} color="#0f141e">
           Your SEO Using AI
         </Typography>
         <Typography
