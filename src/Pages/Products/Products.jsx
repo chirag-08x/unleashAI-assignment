@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import React, { useEffect } from "react";
-import { Hero, Clients } from "./components";
+import { Hero, Clients, ProductsCard } from "./components";
 
 const Products = () => {
   useEffect(() => {
@@ -11,6 +11,7 @@ const Products = () => {
     <Wrapper>
       <Hero />
       <Clients />
+      <ProductsCard />
     </Wrapper>
   );
 };
