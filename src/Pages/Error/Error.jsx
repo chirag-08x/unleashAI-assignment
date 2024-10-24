@@ -14,7 +14,7 @@ const Error = () => {
     <Wrapper>
       <section className="section-center">
         <Stack justifyContent={"center"} alignItems={"center"}>
-          <img style={{ maxWidthwidth: "500px" }} src={ErrorImg} alt="" />
+          <img style={{ maxWidth: "500px" }} src={ErrorImg} alt="" />
           <Link
             to={"/"}
             style={{
