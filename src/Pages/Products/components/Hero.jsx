@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Button, Grid2, Typography } from "@mui/material";
+import { Grid2, Typography } from "@mui/material";
 import { CustomButton } from "../../../styles/button";
 import { FaArrowRightLong } from "react-icons/fa6";
 
