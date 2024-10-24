@@ -37,13 +37,14 @@ const Services = () => {
           direction={{ xs: "column", md: "row" }}
           spacing={{ xs: 2, md: 4 }}
           container
+          px={{ md: 5 }}
         >
           {serviceCards.map(({ id, title, desc }) => {
             return (
               <Grid2
                 size={{ xs: 12, md: 6, lg: 4 }}
                 key={id}
-                bgcolor="#f4f7ee"
+                bgcolor="#f4f7fe"
                 px={5}
                 py={4}
                 borderRadius={3}
@@ -60,7 +61,12 @@ const Services = () => {
 
                 <hr />
 
-                <Typography mt={1.5} variant="body1" lineHeight={1.8}>
+                <Typography
+                  mt={1.5}
+                  variant="body1"
+                  lineHeight={1.8}
+                  color="#2C374F"
+                >
                   {desc}
                 </Typography>
 
