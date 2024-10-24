@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { FaArrowRightLong } from "react-icons/fa6";
-import ClientCards from "../../../components/ClientCards/ClientCards";
+import { ClientCards } from "../../../components";
 
 const ProductsList = () => {
   return (

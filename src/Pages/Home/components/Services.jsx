@@ -1,11 +1,9 @@
 import styled from "@emotion/styled";
 import { serviceCards } from "../../../data/data";
-import { Box, Button, Stack, Typography, Grid2 } from "@mui/material";
+import { Box, Button, Typography, Grid2 } from "@mui/material";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { useTheme } from "@emotion/react";
 
 const Services = () => {
-  const theme = useTheme();
   return (
     <Wrapper>
       <Box className="section-center">

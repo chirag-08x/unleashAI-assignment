@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { CustomButton } from "../../../styles/button";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
