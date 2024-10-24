@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Grid2, Typography } from "@mui/material";
+import { Button, Grid2, Typography } from "@mui/material";
 import { CustomButton } from "../../../styles/button";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -10,19 +10,19 @@ const Hero = () => {
         <Grid2 container minHeight="73vh" alignItems={"center"} spacing={10}>
           <Grid2
             size={{ xs: 12, lg: 6 }}
-            sx={{
-              textAlign: { xs: "center", lg: "left" },
-            }}
+            textAlign={{ xs: "center", lg: "left" }}
           >
             <Typography color="primary" variant="h1">
               AI-Powered SEO for
             </Typography>
             <Typography variant="h1">WordPress Sites</Typography>
             <Typography
-              variant="body1"
+              variant={{ sm: "body2", lg: "body1" }}
               maxWidth={"585px"}
-              fontSize={"20px"}
-              mt={2}
+              fontSize={{ md: "17px", lg: "19px" }}
+              color="#2c374f"
+              display={"block"}
+              mt={2.5}
             >
               Our cutting-edge AI tool is specifically designed for WordPress
               website owners and agencies to streamline the process of
@@ -44,7 +44,11 @@ const Hero = () => {
             </CustomButton>
           </Grid2>
 
-          <Grid2 size={{ xs: 12, lg: 6 }}>
+          <Grid2
+            size={{ xs: 12, lg: 6 }}
+            container
+            justifyContent={{ sm: "center", lg: "left" }}
+          >
             <img
               src="https://unleashai.co/static/assets/img/products-thumb.png"
               alt=""

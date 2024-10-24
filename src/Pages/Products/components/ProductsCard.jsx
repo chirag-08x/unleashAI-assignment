@@ -100,6 +100,9 @@ const Wrapper = styled.div`
     background-color: #333;
     max-width: 1400px;
     border-radius: 1.5rem;
-    padding: 3.5rem;
+    padding: 1.25rem;
+    @media (min-width: 900px) {
+      padding: 3.5rem;
+    }
   }
 `;
