@@ -10,7 +10,9 @@ const Navbar = () => {
     <Nav>
       <section className="section-center">
         <Box className="logo-wrapper">
-          <img src={HeaderLogo} alt="" />
+          <Link to={"/"}>
+            <img src={HeaderLogo} alt="" />
+          </Link>
         </Box>
 
         <Stack direction="row" spacing={4} className="nav-links">
