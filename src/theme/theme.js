@@ -14,5 +14,25 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: '"Roboto", "system-ui", "-apple-system", "BlinkMacSystemFont"',
+    h1: {
+      fontSize: "clamp(2rem, 5vw, 3rem)",
+      fontWeight: 700,
+    },
+    h2: {
+      fontSize: "clamp(1.5rem, 3vw, 2.5rem)",
+      fontWeight: 700,
+    },
+    h3: {
+      fontSize: "clamp(1.25rem, 2.5vw, 2.25rem)",
+      fontWeight: 700,
+    },
+    h4: {
+      fontSize: "clamp(1rem, 2vw, 1.875rem)",
+      fontWeight: 700,
+    },
+    h5: {
+      fontSize: "clamp(0.875rem, 1.5vw, 1.25rem)",
+      fontWeight: 700,
+    },
   },
 });
