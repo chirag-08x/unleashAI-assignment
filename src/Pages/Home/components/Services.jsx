@@ -46,11 +46,21 @@ const Services = () => {
                 px={5}
                 py={4}
                 borderRadius={3}
-                sx={{ cursor: "pointer" }}
+                sx={{
+                  cursor: "pointer",
+                  ":hover": {
+                    background: (theme) => theme.palette.primary.main,
+                    "*": {
+                      color: "white",
+                    },
+                  },
+                  transition: "background 0.4s linear",
+                }}
               >
                 <Typography
-                  variant="h5"
+                  variant="h4"
                   fontWeight={500}
+                  fontSize={"1.5rem"}
                   color="secondary.dark"
                   mb={2.5}
                 >
