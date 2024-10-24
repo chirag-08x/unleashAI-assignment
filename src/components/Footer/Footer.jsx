@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import React from "react";
-import { Box, Divider, Grid2, Stack, Typography } from "@mui/material";
+import { Divider, Grid2, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
