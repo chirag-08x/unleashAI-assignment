@@ -12,4 +12,7 @@ export const theme = createTheme({
       dark: "#002577",
     },
   },
+  typography: {
+    fontFamily: '"Roboto", "system-ui", "-apple-system", "BlinkMacSystemFont"',
+  },
 });
