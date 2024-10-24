@@ -4,7 +4,6 @@ import { CustomButton } from "../../../styles/button";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { SwiperImg1, SwiperImg2, SwiperImg3 } from "../../../assets";
 import "swiper/css/autoplay"; // Import autoplay styles
 import { Autoplay } from "swiper/modules"; // Import the Autoplay module
 
@@ -58,13 +57,22 @@ const Hero = () => {
         style={{ maxWidth: "1050px", marginTop: "3rem" }}
       >
         <SwiperSlide>
-          <img src={SwiperImg1} alt="" />
+          <img
+            src="https://unleashai.co/static/assets/img/image-1.jpg"
+            alt=""
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SwiperImg2} alt="" />
+          <img
+            src="https://unleashai.co/static/assets/img/image-2.jpg"
+            alt=""
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SwiperImg3} alt="" />
+          <img
+            src="https://unleashai.co/static/assets/img/image-3.jpg"
+            alt=""
+          />
         </SwiperSlide>
       </Swiper>
     </Wrapper>
